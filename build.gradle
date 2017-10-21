@@ -1,0 +1,20 @@
+plugins {
+    id "org.jetbrains.kotlin.jvm" version "1.1.51"
+}
+
+apply plugin: 'kotlin'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib-jre8"
+    compile "org.jetbrains.kotlin:kotlin-reflect"
+
+    compile group: 'com.alibaba', name: 'fastjson', version: '1.2.39'
+}
+
+group 'com.livelazily.fastjson-kotlin'
+version '1.0-SNAPSHOT'
+
